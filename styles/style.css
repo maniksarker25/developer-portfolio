@@ -202,3 +202,30 @@ main {
     margin-top: 50px;
     text-align: center;
 }
+/* Contect syles */
+.contect{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contect .section-title{
+    text-align: left;
+}
+.contect input[type="text"],input[type="email"],text-area{
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
+}
+input{
+    height: 64px;
+}
+.discription{
+    margin-bottom: 30px;
+    
+}
+.contect a{
+    text-decoration: none;
+    margin-right: 20px;
+}
